@@ -21,4 +21,9 @@
     
     }
     
+ ## Scope
+ ### Hydra 0.1 is not meant to produce a production ready documentation server
+ It is meant to aid your efforts in building out and testing your api's. It's a developer tool to speed things up.
+ Eventually it will go the distance and professionalize into a production ready documentation tool.
+    
 
