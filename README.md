@@ -6,7 +6,7 @@
 
 ### Use this schema as an example for your hydra.json file to create your API with OCL invariants and documentation
 
-`{
+
     apiFunctionName1:{
         ocl:{
             constraintName1:{
@@ -23,4 +23,4 @@
     
     }
     
-}`
+
