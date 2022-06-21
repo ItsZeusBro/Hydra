@@ -1,5 +1,5 @@
 # Hydra
-## Api Manifestations using OCL Constraints... Arrghh!
+## Api Manifestations using Hydra's declaritive OCL Constraints
 
 ![420px-Hercules_killing_the_hydra_headed_monster](https://user-images.githubusercontent.com/107733608/174702298-353afad3-96be-44c2-bf1a-b9f3cca65d54.jpg)
 
