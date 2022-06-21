@@ -5,8 +5,8 @@
 
 
 ## Hydra's Native Constraints use Boolean Invariants, Regex for Complex String Invariants, and Query Selectors for Nested Invariants 
-### Basic Example:
-In a Hydra File, Hydra will use your invariants in the order in which they are expressed (as a pipeline)
+### Basic Example: (In a Hydra File, Hydra will use your invariants, in the order in which they are expressed [as a pipeline] and/or as nested flows for clarity)
+
     export SomeFunction = {
         output: "some/file/somewhere.js"
         someFunction:{
