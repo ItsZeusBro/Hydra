@@ -6,10 +6,14 @@
 
 ## Hydra's Native Constraints use Boolean Invariants, Regex for Complex String Invariants, and Query Selectors for Nested Invariants 
 ### Basic Example:
+In a Hydra File, Hydra will use your invariants in the order in which they are expressed (as a pipeline)
     export SomeFunction = {
         output: "some/file/somewhere.js"
         someFunction:{
-            inv: "(pname1 >= 10) && (/ab+c/ == pname2)"
+            inv: {
+                invname1: "(pname1 >= 10) && (/ab+c/ == pname2)",
+                invname2: 
+            }
             params:{
                 pname1: int,
                 pname2: string
