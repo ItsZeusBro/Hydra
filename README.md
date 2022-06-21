@@ -24,5 +24,8 @@
  ### Hydra 0.1 is not meant to produce a production ready documentation server
  It is meant to aid your efforts in building out your api's with a test driven approach. It's a developer tool to speed things up.
  Eventually it will go the distance and professionalize into a production ready documentation tool as well, but I don't know when.
+ 
+ ### Eventually we wish to add more and more OCL expressions to build a more strict test for your functions logic
+ Otherwise this project is not worth much at all to the world. There are enough documentation servers and test driven development tools on the market
     
 
