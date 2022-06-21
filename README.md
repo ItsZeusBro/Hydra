@@ -10,7 +10,7 @@
     apiFunctionName1:{
         ocl:{
             constraintName1:{
-                ocl: "some well formed ocl string"  
+                ocl: "some well formed ocl string with supported features"  
             }
         }
         
