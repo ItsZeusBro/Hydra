@@ -5,9 +5,9 @@
 
 
 ## Hydra's Native Constraints use Boolean Invariants, Regex for Complex String Invariants, and Query Selectors for Nested Invariants 
-### Input:
-    {
-        output: "some/file/somewhere"
+### Basic Example:
+    export SomeFunction = {
+        output: "some/file/somewhere.js"
         someFunction:{
             inv: "(pname1 >= 10) && (/ab+c/ == pname2)"
             params:{
@@ -17,8 +17,15 @@
         }
     }
     
- ### Output:
-    function someFunction()
+ ### Output in some/file/somewhere.js:
+ 
+    function someFunction(pname1, pname2) {
+        assert(Hydra.Somefunction.inv)
+        //code goes here
+        assert(Hydra.Somefunction.inv)
+        return
+    }
+ 
  
 ## Hydra uses it's own Native File Type to give more Semantical Meaning to an otherwise JSON like Syntax 
 
