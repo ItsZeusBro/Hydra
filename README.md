@@ -4,12 +4,11 @@
 ![420px-Hercules_killing_the_hydra_headed_monster](https://user-images.githubusercontent.com/107733608/174702298-353afad3-96be-44c2-bf1a-b9f3cca65d54.jpg)
 
 
-### Use this schema as an example for your hydra.json file to create your API function scaffolds, invariants, and documentation
-
-    const regex = new RegExp('foo*');
-
+### Use this JSON schema as an example for your hydra.json file to create your API function descriptions
+Hydra will ingest the file and produce your API scaffold with invariants, and spin up a doc server for you to see it 
+    
     someFunction:{
-        inv: (p1 >= 10) && (regex.test(p2))
+        inv: "(p1 >= 10) && (/ab+c/ == p2)"
         
         p1: {
             type: int
