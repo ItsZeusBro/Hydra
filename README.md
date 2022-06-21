@@ -8,10 +8,8 @@
 
 
     apiFunctionName1:{
-        invariants:{
-            constraintName1:{
-                invariant: 
-            }
+        invariant:{
+ 
         }
         
         functionParamName1: {
