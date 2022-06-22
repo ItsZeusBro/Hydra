@@ -1,4 +1,4 @@
-# Hydra (Abstract Syntax that Descends)
+# Hydra (Abstract Syntax for Business Logic that Descends into your native tongue)
 ![download](https://user-images.githubusercontent.com/107733608/174929181-2b833d64-2109-4eb3-a67b-e257668856fa.jpg)
 ## Background Info:
 Abstract Syntax is a great tool for architechts to instantiate projects with all of their associated: 
@@ -40,3 +40,7 @@ Why ascii art for diagrams? Because it allows us to use diagram according to any
 5. Hydra uses a standard interpreter for all Abstract Syntax
 7.  Hydra's Plugin Architechture gives you the ability to add in cool plugins like Hercules-Constraints or other Plugins for whatever purpose
 8. We currently are aiming to support python, javascript, and go scaffolding. Various others will need help from the community
+
+## Some Cool things you can Build with Hydra!
+1. A client in Javascript and server in Golang all connected with network code
+2. 
