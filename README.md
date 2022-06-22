@@ -1,17 +1,21 @@
 # Hydra
 ![download](https://user-images.githubusercontent.com/107733608/174929181-2b833d64-2109-4eb3-a67b-e257668856fa.jpg)
-
+## Background Info:
+Abstract Syntax is a great tool for architechts to instantiate projects with all of their associated: 
+1. Dependencies
+2. Functions
+3. Classes with associated properties and methods
+4. OOP Inheritance
+5. Parameters and their associated types
+6. Invariants and Looping Invariants
+7. Callback functions
+8. State Machine Flow (Initial State and Transition Functions) 
 ## First Release:
 
-## Features
-1. OOP
-2. Type-Strict or Typless
-3. Pass by reference or copy
-4. call backs
-5. higher order functions
-6. variadic paramters
-7. invariants and loop invariants
-8. language support
+## Hydra Features
+1. Hydra offers all of the declaritive features of an Abstract Syntax that are listed above
+2. Hydra offers an abstract syntax (that is basically JSON) that is interpreted differently than the underlying JSON. This saves time initiating a project, especially if you use Hydrarchy Documentation, and Hydra plugins like Hercules that try to gain finer grain control within the Hydra Pipeline
+3. The interpreter makes its run in layers which enables the pipeline to have semantical value in the future. (we don't know what that might be, we just think it might open things up later). It also helps us wrap our head around the plugins and how they interact with Hydra.
 
 
 ## Additional things
