@@ -47,3 +47,11 @@ Why ascii art for diagrams? Because it allows us to use diagram according to any
 3. REST Api's
 4. Almost anything having to do with business logic
 
+## Basic Rules
+1. Everything is an Object
+2. Every Object has a name associated with it in a Hydra Context
+3. Some Objects are Classes, others are Functions, Abstract Data Types, and Literals
+4. Classes all use the specific keywords props and methods
+5. Methods have function names and blocks that contain real code blocks (in your favorite language) and the keyword that specifies the language
+
+Everything else is plugged into Hydra, including but not limited to: Diagrams associated with your Object Names, Testing Functions hooked to all functions and methods with associated invariants and filtering constraints that are hidden from your code, Microservice Orchastration with REST Api and other forms of communication, AI Pipelines with abstract directives, CI/CD integration, Documentation, Persistence Orchastration, and Identity/Permission services
