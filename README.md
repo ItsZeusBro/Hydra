@@ -28,5 +28,7 @@ Abstract Syntax is a great tool for architechts to instantiate projects with all
     - This means that Hydra does not promote any underlying language through its choices. 
     - Self-recognition for a project like Hydra is important for various optimization reasons. 
     - Doing it any other way would lead to a more probable demise. 
-6. Hydra's Plugin Architechture gives you the ability to add in Hercules-Constraints or other Plugins for whatever purpose
-7. We currently are aiming to support python, javascript, and go translations. Various others will need help from the community
+
+5. Hydra builds Hydra executables in a interpreter pipeline (in stages) to easily add native features (layers) in the future
+7.  Hydra's Plugin Architechture gives you the ability to add in Hercules-Constraints or other Plugins for whatever purpose
+8. We currently are aiming to support python, javascript, and go translations. Various others will need help from the community
