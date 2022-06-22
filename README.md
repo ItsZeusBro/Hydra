@@ -43,4 +43,6 @@ Why ascii art for diagrams? Because it allows us to use diagram according to any
 
 ## Some Cool things you can Build with Hydra!
 1. A client in Javascript and server in Golang all connected with network code
-2. 
+2. State Machine Diagrams with their associated code
+3. REST Api's
+4. Almost anything having to do with business logic
