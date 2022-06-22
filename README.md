@@ -1,5 +1,8 @@
-# Hydra (Abstract Syntax for Business Logic that Descends into your Native Language)
+# Hydra 
+### Hydra's main feature is an Abstract Syntax Model for all of your app's needs (Business Logic, Persistence, and Presentation) which descends into concrete implementations using language plugins
+
 ![download](https://user-images.githubusercontent.com/107733608/174929181-2b833d64-2109-4eb3-a67b-e257668856fa.jpg)
+
 ## Background Info:
 Abstract Syntax is a great tool for architechts to instantiate projects with all of their associated: 
 1. Concrete Dependencies
