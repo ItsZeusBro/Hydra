@@ -28,15 +28,11 @@
         }
     }
 
-Hydra takes this assignment and creates a Hydra Object called someFunc. This object both generates code, and is callable from supported languages 
-    
- ### Output in some/file/somewhere.js:
- 
+### Additional Info:
+1. Hydra takes the assignment to someFunc and creates a Hydra Object called someFunc. This object generates test code, and is also callable from supported languages 
+2. Hydra uses it's own Native File Type to give more Semantical Meaning to an otherwise JSON like Syntax 
+3. Hydra keeps itself pure, in the sense that it's an Abstract Syntax to keep itself language independent (and all the problems associated with) and self-recognizing. Language independence is important because if your language updates itself and Hydra no longer supports it, people can add that support without changing Hydra which would break other things downstream. Self-recognition for a project like Hydra is important for various optimization reasons. (Lending itself to specific paradigmns takes away from Hydra) 
 
- 
-## Hydra uses it's own Native File Type to give more Semantical Meaning to an otherwise JSON like Syntax 
-
-
-## Hydra's Plugin Architechture gives you the ability to add in OCL or other Constraint Driven Plugins
-
-## Hydra creates the test files with functions that are bound to your implementation, and can be included as a build step in pipeline
+## Future Releases:
+1. Hydra's Plugin Architechture gives you the ability to add in OCL or other Constraint Driven Plugins
+2. python and golang support
