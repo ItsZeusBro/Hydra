@@ -10,6 +10,7 @@ Abstract Syntax is a great tool for architechts to instantiate projects with all
 6. Invariants and Looping Invariants
 7. Callback functions
 8. State Machine Flow (Initial State and Transition Functions) 
+9. Exception Handling
 ## First Release:
 
 ## Hydra Features
