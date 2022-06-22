@@ -2,7 +2,7 @@
 ![download](https://user-images.githubusercontent.com/107733608/174929181-2b833d64-2109-4eb3-a67b-e257668856fa.jpg)
 ## Background Info:
 Abstract Syntax is a great tool for architechts to instantiate projects with all of their associated: 
-1. Dependencies
+1. Concrete Dependencies
 2. Functions
 3. Classes with associated properties and methods
 4. OOP Inheritance
@@ -11,6 +11,7 @@ Abstract Syntax is a great tool for architechts to instantiate projects with all
 7. Callback functions
 8. State Machine Flow (Initial State and Transition Functions) 
 9. Exception Handling
+10. Hydra Abstract Modules 
 ## First Release:
 
 ## Hydra Features
