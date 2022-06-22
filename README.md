@@ -6,7 +6,6 @@
 
 ## Hydra's Native Constraints use Boolean Invariants, Regex for Complex String Invariants, and Query Selectors for piping Invariants 
 ### Basic Example:
-// "=" operator is used to assign a Hydra scheme to a Hydra object that is exposed to supported languages
     SomeFunction = {
         output: "some/file/somewhere.js"
         someFunction:{
@@ -17,20 +16,21 @@
                 inv4: (objp1.disjointset(objp2).difference(objp3))->(i<100)
             }
             params:{
-                p1: int,
-                p2: string,
-                p3: function,
-                p4: int_collection
+                p1: <int>,
+                p2: <string>,
+                p3: <function>,
+                p4: <int_collection>
                 p5: {
                     //This parameter is an Object
-                    objp1: int_collection,
-                    objp2: int_collection,
-                    objp3: int_collection,
-                    pfunc: function
+                    objp1: <int_collection>,
+                    objp2: <int_collection>,
+                    objp3: <int_collection>,
+                    pfunc: <function>
                 }
             }
-        }
     }
+
+Hydra takes this assignment and creates a Hydra Object called SomeFunction. This object both generates code, and is callable from supported languages 
     
  ### Output in some/file/somewhere.js:
  
