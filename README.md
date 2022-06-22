@@ -1,4 +1,4 @@
-# Hydra (Declaritive Application Backbone)
+# Hydra (Abstract Declaritive Application Backbone)
 ![download](https://user-images.githubusercontent.com/107733608/174929181-2b833d64-2109-4eb3-a67b-e257668856fa.jpg)
 ## Background Info:
 Abstract Syntax is a great tool for architechts to instantiate projects with all of their associated: 
