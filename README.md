@@ -23,7 +23,7 @@ All in a single shcema! Hydra aspires to be a real sea monster
 1. Hydra offers all of the declaritive features of an Abstract Syntax that are listed above
 2. Hydra offers an abstract syntax (that is basically JSON) that is interpreted differently than the underlying JSON. This saves time initiating a project, especially if you use Hydrarchy Documentation, and Hydra plugins like Hercules that try to gain finer grain control within the Hydra Pipeline
 3. The interpreter makes its run in layers which enables the pipeline to have semantical value in the future. (we don't know what that might be, we just think it might open things up later). It also helps us wrap our head around the plugins and how they interact with Hydra.
-
+4. Hydra uses Hermes' Lyre to add these manifestions to your git repo
 
 ## Additional things
 1. Hydra is an abstract declaritive syntax on top of a JSON base layer. In otherwords its all JSON, but Hydra reads it differently than JSON does
