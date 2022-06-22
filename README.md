@@ -66,3 +66,10 @@ Everything else is plugged into Hydra, including but not limited to:
 9. Identity/Permission services (Olympus)
 
 Hydra Plugins work with their own Abstract Syntaxes and are evaluated by the plugin which is orchastrated by Hydra when necessary
+
+### Hydra Workflow:
+Hydra is in sync with your codebase because it generates that codebase and all of its associated files from Abstract Syntax; including classes, functions, etc. 
+This means the following:
+1. When you update function code in a Hydra file, it is reflected in your actual source file, and viceversa (IDE's should tuck this hydra low level code away unless you want to drill into on a case by case basis. This is to emphasize the Abstract Syntax features and plugins)
+2. Hydra's interpreter makes real-time changes to your local repository
+3. Hydra has plugin build scripts that run the code you change but only where you change it (and what it effects) to let you know in real time how your code performs (and its associated output logs [plugin enabled]). This feature should not work without a plugin, because each language and build context is highly specific.
