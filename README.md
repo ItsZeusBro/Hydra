@@ -15,7 +15,7 @@ Abstract Syntax is a great tool for architechts to instantiate projects with all
 11. Network Protocols
 12. Abstract Modules (reference and link smaller Abstract Modules to create monolithic executable Abstract Syntax Files)
 
-All in a single shcema!
+All in a single shcema! Hydra aspires to be a real sea monster
 ## First Release:
 
 ## Hydra Features
