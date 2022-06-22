@@ -11,7 +11,7 @@ Abstract Syntax is a great tool for architechts to instantiate projects with all
 7. Callback functions
 8. State Machine Flow (Initial State and Transition Functions) 
 9. Exception Handling
-10. Hydra Abstract Modules (link larger executable Hydra files from smaller ones)
+10. Abstract Modules (reference and link smaller Abstract Modules to create monolithic executable Abstract Syntax Files)
 ## First Release:
 
 ## Hydra Features
