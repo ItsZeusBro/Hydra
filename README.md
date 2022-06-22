@@ -1,13 +1,12 @@
 # Hydra
-## Test Driven Function Framework using Hydra's Constraint Plugins (Still designing the interface, back-off!)
-
+## Abstract Test Driven Function Framework using Hydra's Native Constraints and Constraint Plugins
 ![420px-Hercules_killing_the_hydra_headed_monster](https://user-images.githubusercontent.com/107733608/174702298-353afad3-96be-44c2-bf1a-b9f3cca65d54.jpg)
 
 
 ## Hydra's Native Constraints use Boolean Invariants, Regex for Complex String Invariants, and Query Selectors for piping Invariants 
 ### Basic Example:
     someFunc = {
-        out: "some/file/somewhere.js"
+        out: "some/file/someWhere.js" //you can use .py and Hydra will generate python files
         inv: {
             inv1: "(p1 >= 10)" ,
             inv2: "(/ab+c/ == p2)",
