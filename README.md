@@ -21,9 +21,9 @@ All in a single shcema, Hydra aspires to be a real declaritive sea monster! But 
 
 
 ## Hydra Main Features
-1. Generate Diagrams using ascii art all in Javascript Objects or JSON that is bound to your Object Declarations
-2. Generate Source Code Files with complete classes, functions, in the language of your choice 
-3. Generate Documentation tied to your Abstract Syntax filled with commentary
+1. Generate Diagrams using ascii art all in Javascript Objects or JSON that is bound to your Object Declarations (Using Uranus Plugin)
+2. Generate Source Code Files with complete classes, functions, in the language of your choice (Using Language Plugins)
+3. Generate Documentation tied to your Abstract Syntax filled with commentary (Using Hydrarchy Plugin)
 
 Why ascii art for diagrams? Because it allows us to use diagram according to any standard
 
@@ -47,43 +47,3 @@ Why ascii art for diagrams? Because it allows us to use diagram according to any
 3. REST Api's
 4. Almost anything having to do with business logic
 
-
-## Diagram Symbols 
-
-|   **Associations**   |                    **Dotted Line**                   |                   **Solid Line**                   |                             |                             |
-|:--------------------:|:----------------------------------------------------:|:--------------------------------------------------:|:---------------------------:|:---------------------------:|
-|                      |                           -                          |                          _                         |                             |                             |
-|    **Arrowheads**    |                       **Open**                       |                     **Closed**                     |           **Open**          |          **Closed**         |
-|                      |                           >                          |                         >>                         |              <              |              <<             |
-|    **Interfaces**    |                  **Ball and Socket**                 |                 **Ball and Socket**                |          **Ports**          |                             |
-|                      |                         -(*-                         |                        -*)-                        |              []             |                             |
-|    **Composition**   |              **Dotted Line Composition**             |             **Dotted Line Composition**            | **Closed Line Composition** | **Closed Line Composition** |
-|                      |                         <>-                          |                         -<>                        |              _<>            |             <>_             |
-|  **Starting State**  |              **Starting State or Ball**              |                                                    |                             |                             |
-|                      |                           *                          |                                                    |                             |                             |
-|   **Ending State**   |           **Ending State or Enclosed Ball**          |                                                    |                             |                             |
-|                      |                          (*)                         |                                                    |                             |                             |
-|    **Entry Point**   |            **Entry Point or Flow Element**           |                                                    |                             |                             |
-|                      |                         (><)                         |                                                    |                             |                             |
-|      **Choice**      |      **Just use Chevrons to create the Diamond**     |                                                    |                             |                             |
-|                      |                          <>                          |                                                    |                             |                             |
-|    **Destruction**   |             **Destructive Associations**             | **Add text fields to Destructive Associations**    |                             |                             |
-|                      |                     -X- or -X-X-                     |              -()-X-()- or -()-(X)-()-              |                             |                             |
-|       **Actor**      |               **Stick figgure person**               |                                                    |                             |                             |
-|                      |                        *-\|-<                        |                                                    |                             |                             |
-|       **Fork**       |   Dotted Line going in, Two Dotted Lines going out   |   Solid Line going in, Two Solid Lines going out   |                             |                             |
-|                      |                         -\|=                         |                        _\|=                        |                             |                             |
-|       **Join**       | Two Dotted Lines going in, One Dotted Line going out | Two Solid Lines going in, One Solid Line going out |                             |                             |
-|                      |                         =\|-                         |                        =\|_                        |                             |                             |
-| **Send and Recieve** |                       **Send**                       |                     **Recieve**                    |                             |                             |
-|                      |                         \|=>                         |                        <=\|                        |                             |                             |
-|      **Package**     |                                                      |                                                    |                             |                             |
-|                      |                          [^]                         |                                                    |                             |                             |
-|       **Note**       |                                                      |                                                    |                             |                             |
-|                      |                          [v]                         |                                                    |                             |                             |
-|  **Shallow History** |                                                      |                                                    |                             |                             |
-|                      |                          (H)                         |                                                    |                             |                             |
-|       **Oval**       |                                                      |                                                    |                             |                             |
-|                      |                          ()                          |                                                    |                             |                             |
-|       **Node**       |                                                      |                                                    |                             |                             |
-|                      |                         [[]]                         |                                                    |                             |                             |
