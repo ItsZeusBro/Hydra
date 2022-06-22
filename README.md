@@ -48,7 +48,7 @@ Why ascii art for diagrams? Because it allows us to use diagram according to any
 4. Almost anything having to do with business logic
 
 
-## This will go in a Hydrarchy doc once we build Hydrarchy with Hydra!
+## Diagram Symbols 
 
 |   **Associations**   |                    **Dotted Line**                   |                   **Solid Line**                   |                             |                             |
 |:--------------------:|:----------------------------------------------------:|:--------------------------------------------------:|:---------------------------:|:---------------------------:|
