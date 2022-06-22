@@ -1,5 +1,5 @@
 # Hydra
-## Test Driven Function Framework using Hydra's Constraint Plugins
+## Test Driven Function Framework using Hydra's Constraint Plugins (Still designing the interface, back-off!)
 
 ![420px-Hercules_killing_the_hydra_headed_monster](https://user-images.githubusercontent.com/107733608/174702298-353afad3-96be-44c2-bf1a-b9f3cca65d54.jpg)
 
@@ -28,9 +28,10 @@
                        param4->select(param4.size<=10)
                  }
                  invname5: {
-                    //loop through collection 1 and get half of the values that represent the smaller half
+                    //loop through collection 1 and get half of the values that represent the smaller half using javascript
+                        
                     inv: {
-                        check subcollection1 to make sure each element is greater than items in collection2
+                        check subcollection1 to make sure each element is greater than items in collection2 using javascript
                     }
                  }
                   
