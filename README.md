@@ -54,4 +54,15 @@ Why ascii art for diagrams? Because it allows us to use diagram according to any
 4. Classes all use the specific keywords props and methods
 5. Methods have function names and blocks that contain real code blocks (in your favorite language) and the keyword that specifies the language
 
-Everything else is plugged into Hydra, including but not limited to: Diagrams associated with your Object Names, Testing Functions hooked to all functions and methods with associated invariants and filtering constraints that are hidden from your code, Microservice Orchastration with REST Api and other forms of communication, AI Pipelines with abstract directives, CI/CD integration, Documentation, Persistence Orchastration, and Identity/Permission services
+Everything else is plugged into Hydra, including but not limited to: 
+1. Abstract Diagram Syntax and Visuals associated with your Object Names (Uranus)
+2. Testing Constraints hooked to all functions and methods that are hidden from your Hydra files (Hercules)
+3. Microservice Orchastration with REST Api and other forms of communication (Lachesis)
+4. AI Pipelines assistance with abstract directives (Odin and Cronus) 
+5. CI/CD integration (Hermes) 
+6. Documentation (Hydrarchy)
+7. Persistence Orchastration (Homer) 
+8. State Machines (Moira)
+9. Identity/Permission services (Olympus)
+
+Hydra Plugins work with their own Abstract Syntaxes and are evaluated by the plugin which is orchastrated by Hydra when necessary
