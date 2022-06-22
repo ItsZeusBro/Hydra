@@ -1,4 +1,4 @@
-# Hydra (Abstract Declaritive Application Backbone)
+# Hydra (Abstract Syntax that Descends)
 ![download](https://user-images.githubusercontent.com/107733608/174929181-2b833d64-2109-4eb3-a67b-e257668856fa.jpg)
 ## Background Info:
 Abstract Syntax is a great tool for architechts to instantiate projects with all of their associated: 
@@ -16,24 +16,27 @@ Abstract Syntax is a great tool for architechts to instantiate projects with all
 12. Abstract Modules (reference and link smaller Abstract Modules to create monolithic executable Abstract Syntax Files)
 13. Abstract Database Schema
 
-All in a single shcema! Hydra aspires to be a real sea monster
-## First Release:
+All in a single shcema, Hydra aspires to be a real declaritive sea monster! But thats not all! Hydra allows you to descend into writing functions in a language of your choice within a familiar Javascript Object or JSON notation.
 
-## Hydra Features
-1. Hydra offers all of the declaritive features of an Abstract Syntax that are listed above
-2. Hydra offers an abstract syntax (that is basically JSON) that is interpreted differently than the underlying JSON. This saves time initiating a project, especially if you use Hydrarchy Documentation, and Hydra plugins like Hercules that try to gain finer grain control within the Hydra Pipeline
-3. The interpreter makes its run in layers which enables the pipeline to have semantical value in the future. (we don't know what that might be, we just think it might open things up later). It also helps us wrap our head around the plugins and how they interact with Hydra.
-4. Hydra uses Hermes' Lyre to add these manifestions to your git repo
+
+
+## Hydra Main Features
+1. Generate Diagrams using ascii art all in Javascript Objects or JSON that is bound to your Object Declarations
+2. Generate Source Code Files with complete classes, functions, in the language of your choice 
+3. Generate Documentation tied to your Abstract Syntax filled with commentary
+
+Why ascii art for diagrams? Because it allows us to use diagram according to any standard
 
 ## Additional things
-1. Hydra is an abstract declaritive syntax on top of a JSON base layer. In otherwords its all JSON, but Hydra reads it differently than JSON does
+1. Hydra is an abstract declaritive syntax on top of a JSON or JsObject base layer. In otherwords its all JSON (or Javascript), but Hydra reads it differently to do powerful things
 2. Hydra keeps itself pure, in the sense that it's an Abstract Syntax to keep itself language independent (and all the problems associated with). 
-    - Language independence is important because if your language updates itself and Hydra no longer supports it, people can add that support without changing Hydra which would break other things downstream. 
+    - Language independence is important because if your language updates itself and Hydra no longer supports it, people can add that support without changing Hydra which would break other things downstream.
+    - HOWEVER: This does not mean you can't write code in your favorite language nested in between more abstract language independent declarations 
 4. Hydra is self-recognizing. 
     - This means that Hydra does not promote any underlying language through its choices. 
     - Self-recognition for a project like Hydra is important for various optimization reasons. 
-    - Doing it any other way would lead to a more probable demise. 
+    - Doing it any other way would lead to an eventual demise 
 
-5. Hydra builds Hydra executables in a interpreter pipeline (in stages) to easily add native features (layers) in the future
-7.  Hydra's Plugin Architechture gives you the ability to add in Hercules-Constraints or other Plugins for whatever purpose
-8. We currently are aiming to support python, javascript, and go translations. Various others will need help from the community
+5. Hydra uses a standard interpreter for all Abstract Syntax
+7.  Hydra's Plugin Architechture gives you the ability to add in cool plugins like Hercules-Constraints or other Plugins for whatever purpose
+8. We currently are aiming to support python, javascript, and go scaffolding. Various others will need help from the community
