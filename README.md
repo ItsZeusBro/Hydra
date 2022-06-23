@@ -26,14 +26,15 @@ Every plugin to Hydra evaluates its own syntax. The syntax is nested under the p
         pythonv3:{
             //create your python based plugout for Hydra output evaluation (hydra's evalated JSON gets injested by 
             //your Python as the keyword "output")
-            //this code block creates a python 3 file and imports the Hydra JSON output (called output) every chance Hydra gets for 
-            //immediate feedback.
+            //this code block creates a python 3 file and imports the Hydra JSON output (called output) 
+            //every chance Hydra gets for immediate feedback.
             //So do something with output.whatever in python
         }
       }
       plugin:{
         js6:{
-            //create your javascript plugin here using Hydra plugin API. Pull in specific hydra functionality, push out your plugin to Hydra
+            //create your javascript plugin here using Hydra plugin API. Pull in specific hydra functionality,
+            //push out your plugin to Hydra's pipeline with associated priority
         }
       }
       //Native Hydra Objects
