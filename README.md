@@ -106,6 +106,7 @@ Schema Interfacing is what remains stable to programmers long term. AI will trai
 3. interpreter (and sandbox websocket for text editor plugouts)
 4. plug registry
 5. basic plugs (Uranus, Jormungand, Hydrarchy, Orpheus, Hippocampus)
+6. Comments are a native feature of Hydra files, but when they are exported in JSON they are put into a comment:"string" to not lose valuable info
 
 Please Join our Community and Help!
 zeusofolympus1000@gmail.com
