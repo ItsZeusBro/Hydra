@@ -68,16 +68,19 @@ Every plugin to Hydra evaluates its own syntax. The syntax is nested under the p
         },
         objName3:{
           type: "Class",
-          language: "python v3.0"
           props:{
             size: "18",
             desc: "weighty thing"
           },
           methods:{
             get_weight: {
-                //this feature gets ignored if you do not insert the associated language plugin
-                //insert python code here that would go inside of func get_weight: in your python file
-                return self.size
+                plugin: "Jormungand"
+                code:{
+                    //this feature gets ignored if you do not insert the associated language plugin
+                    //insert python code here that would go inside of func get_weight: in your python file
+                    return self.size
+                }
+
             }
             
           }
