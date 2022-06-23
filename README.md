@@ -115,5 +115,8 @@ Schema Interfacing is what remains stable to programmers long term. AI will trai
 5. basic plugs (Uranus, Jormungand, Hydrarchy, Orpheus, Hippocampus, and Hercules)
 6. Comments are a native feature of Hydra files, but when they are exported to JSON with Hippocampus plugout they are put into a comment:"string" to not lose valuable info
 
+## More on Plug Support:
+To properly create a plug that also offers its own extending plugs, the plug your working on should utilize Hydra's Plug Library 
+
 Please Join our Community and Help!
 zeusofolympus1000@gmail.com
