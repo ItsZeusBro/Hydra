@@ -35,6 +35,10 @@ Every plugin to Hydra evaluates its own syntax. The syntax is nested under the p
         js6:{
             //create your javascript plugin here using Hydra plugin API. Pull in specific hydra functionality,
             //push out your plugin to Hydra's pipeline with associated priority
+            //Then export it to the plug registry and pull it back in using Hydra Cli
+            //all plugins pushed to the registry are hashed so that if you keep this code here, there are no
+            //duplicate plugin collisions. Dont worry about empty spaces as they are all sanitized before being
+            //hashed.
         }
       }
       //Native Hydra Objects
