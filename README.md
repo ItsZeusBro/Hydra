@@ -1,16 +1,12 @@
 # Hydra 
-Hydra aims to be a minimalistic Abstract Syntax that orchastrates other syntax plugins
+- Aims to be a minimalistic Abstract Syntax that orchastrates other syntax plugins
+- Uses a plugin/plugout architecture. Plugins extend Hydra's native features during Hydra Digestion. Plugouts are manifestions built using Hydra output.
+- Tells us that: when we can code abstractly we should. The plugins aim to show us why. Overtime, this type of Abstract Syntax will allow us to do a lot more than meets the eye.
+- Plugins are there to give context and opinion to your Abstract Syntax. This will allow Hydra to read like pseudo code or even natural language one day, and every term of art will have a context and opinion constrained by your plugins. In otherwords, some plugins can conflict with others. Better yet, other plugins add nuance in there own pipelines. That looks like the mythical Hydra when its done.
 
-Hydra uses a plugin/plugout architecture. Plugins extend Hydra's native features during Hydra Digestion. Plugouts are manifestions built using Hydra output.
-
-
-Hydra tells us that: when we can code abstractly we should. The plugins aim to show us why. Overtime, this type of Abstract Syntax will allow us to do a lot more than meets the eye.
-
-The plugins are there to give context and opinion to your Abstract Syntax. This will allow Hydra to read like pseudo code or even natural language one day, and every term of art will have a context and opinion constrained by your plugins. In otherwords, some plugins can conflict with others. Better yet, other plugins add nuance in there own pipelines. That looks like the mythical Hydra when its done.
-
-Plugins go into Hydra's belly (during digestion). Plugouts are when Hydra surfaces one of its heads from beneath the sea. 
-
+#### Plugins go into Hydra's belly (during digestion). 
 ![images](https://user-images.githubusercontent.com/107733608/175181009-7d7129b8-465b-46c9-853a-3f3d5d644cd0.jpg)
+#### Plugouts are when Hydra surfaces one of its heads from beneath the sea. 
 
 
 ## somefile.hydra:
