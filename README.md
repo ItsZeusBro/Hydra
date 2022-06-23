@@ -10,3 +10,44 @@ The plugins are there to give context and opinion to your Abstract Syntax. This 
 Every plugin to Hydra evaluates its own syntax. The syntax is nested under the plugin name. The plugin will look for the name, evaluate the syntax and have an Hydra output: keyword with its stringified evaluation so that things like Hyrarchy can access the evaluations predictably.
 
 ![images](https://user-images.githubusercontent.com/107733608/175181009-7d7129b8-465b-46c9-853a-3f3d5d644cd0.jpg)
+
+
+## Basic Example:
+    {
+      //Native Hydra Objects
+      Hydra:{
+        objName1:{
+          type: "Class",
+          props:{
+            size: "10",
+            desc: "small thing"
+          },
+          methods:{
+            size: get_size()
+
+          }
+
+        },
+        objName2:{
+          type: "Class",
+          props:{
+            size: "14",
+            desc: "strong thing"
+          },
+          methods:{
+            strength: get_strength()
+          }
+        },
+        objName3:{
+          type: "Class",
+          props:{
+            size: "18",
+            desc: "weighty thing"
+          },
+          methods:{
+            weight: get_weight()
+          }
+        }
+
+      }
+    }
