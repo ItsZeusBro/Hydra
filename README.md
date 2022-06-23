@@ -51,3 +51,11 @@ Every plugin to Hydra evaluates its own syntax. The syntax is nested under the p
 
       }
     }
+    
+## Hydra Focuses on What your Building, Not How your Building it
+This is the basic power of declarations. They remain abstract, in as much as they only use a syntax that declares your objects. 
+The "how" is the step by step sequence of operations needed to implement the "what". If we only focus on "what" we are building
+for Hydra's purposes there is a good chance that a better tool will come along in the future that aids us in creating the "how".
+
+For example, AI one day will be the best way to create what you describe. Therefore, Hydra wishes to remain pure to this objective
+to leverage future technologies while still remaining productive enough to be utilized heavily.
