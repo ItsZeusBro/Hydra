@@ -59,3 +59,6 @@ for Hydra's purposes there is a good chance that a better tool will come along i
 
 For example, AI one day will be the best way to create what you describe. Therefore, Hydra wishes to remain pure to this objective
 to leverage future technologies while still remaining productive enough to be utilized heavily.
+
+As AI changes how easily we build things at the "how" level, we can remain productive and needed at the "what" level with things like Hydra.
+Schema Interfacing is what remains stable to programmers long term. AI will train on this schema to give us what we want overtime.
