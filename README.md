@@ -3,11 +3,11 @@ Hydra is a plugin architecture that generates all kinds of services needed for y
 
 Hydra aims to be a minimalistic Abstract Syntax that orchastrates other orchastrating Syntax plugins
 
-Hydra tells us that: when we can code abstractly we should. The plugins aim to show us why. Overtime, this type of Abstract Syntax will allow us to do a lot more in the way of code generation, and probably a ton of other cool things we don't know about with fewer lines of code. Opportunities arise out of abstraction.
+Hydra tells us that: when we can code abstractly we should. The plugins aim to show us why. Overtime, this type of Abstract Syntax will allow us to do a lot more.
 
 The plugins are there to give context and opinion to your Abstract Syntax. This will allow Hydra to read like pseudo code or even natural language one day, and every term of art will have a context and opinion informed by your plugins. In otherwords, some plugins conflict with others. Better yet, other plugins add nuance in there own pipelines. That looks like the mythical Hydra when its done.
 
-Every plugin to Hydra evaluates its own syntax. The syntax is nested under the plugin name. The plugin will look for the name, evaluate the syntax and have an Hydra output: keyword with its stringified evaluation so that things like Hyrarchy can access the evaluations predictably.
+Every plugin to Hydra evaluates its own syntax. The syntax is nested under the plugin name. The plugin will look for the name, evaluate the syntax and have a Hydra artifact: keyword with its stringified evaluation so that things like Hyrarchy can access the artifact predictably.
 
 ![images](https://user-images.githubusercontent.com/107733608/175181009-7d7129b8-465b-46c9-853a-3f3d5d644cd0.jpg)
 
@@ -134,6 +134,7 @@ To properly create a plug that also offers its own extending plugs, the plug you
 13. props
 14. methods
 15. code
+16. artifact
 
 Please Join our Community and Help!
 zeusofolympus1000@gmail.com
