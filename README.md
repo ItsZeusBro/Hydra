@@ -79,15 +79,15 @@
     }
     
 ## Hydra Focuses on What your Building, Not How your Building it
-This is the basic power of declarations. They remain abstract, in as much as they only use a syntax that declares your objects. 
+- This is the basic power of declarations. They remain abstract, in as much as they only use a syntax that declares your objects. 
 The "how" is the step by step sequence of operations needed to implement the "what". If we only focus on "what" we are building
 for Hydra's purposes there is a good chance that a better tool will come along in the future that aids us in creating the "how".
 
-For example, AI one day will be the best way to create what you describe. Therefore, Hydra wishes to remain pure to this objective
-to leverage future technologies while still remaining productive enough to be utilized heavily.
+    - For example, AI one day will be the best way to create what you describe. Therefore, Hydra wishes to remain pure to this objective
+    to leverage future technologies while still remaining productive enough to be utilized heavily.
 
-As AI changes how easily we build things at the "how" level, we can remain productive and needed at the "what" level with things like Hydra.
-Schema Interfacing is what remains stable to programmers long term. AI will train on this schema to give us what we want overtime.
+    - As AI changes how easily we build things at the "how" level, we can remain productive and needed at the "what" level with things like Hydra.
+    Schema Interfacing is what remains stable to programmers long term. AI will train on this schema to give us what we want overtime.
 
 ## Hydra 0.1 Supported Features (eta: 6-12 months):
 1. plugin api
