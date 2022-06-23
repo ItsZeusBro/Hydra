@@ -28,7 +28,7 @@ Every plugin to Hydra evaluates its own syntax. The syntax is nested under the p
             desc: "small thing"
           },
           methods:{
-            size: get_size()
+            size: get_size(int, cool)
 
           }
 
@@ -40,17 +40,23 @@ Every plugin to Hydra evaluates its own syntax. The syntax is nested under the p
             desc: "strong thing"
           },
           methods:{
-            strength: get_strength()
+            strength: get_strength(int, bool)
           }
         },
         objName3:{
           type: "Class",
+          language: "python v3.0"
           props:{
             size: "18",
             desc: "weighty thing"
           },
           methods:{
-            weight: get_weight()
+            get_weight: {
+                //this feature gets ignored if you do not insert the associated language plugin
+                //insert python code here that would go inside of func get_weight: in your python file
+                return self.size
+            }
+            
           }
         }
 
