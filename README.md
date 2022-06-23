@@ -19,28 +19,35 @@ Every plugin to Hydra evaluates its own syntax. The syntax is nested under the p
     
     @/some/path/to/cool.hydra import CoolObject as Cool   
     {
-      plugout:{
+      plugs:{
         //create a special purpose plugout here using Hydra's api to do some plugin development on the fly
         //and see how it interacts with the rest of your hydra files. Hydra's full api is directly exposed
         //to every hydra file by default, because the interpreter is what recognizes those calls.
-        pythonv3:{
-            //create your python based plugout for Hydra output evaluation (hydra's evalated JSON gets injested by 
-            //your Python as the keyword "output")
-            //this code block creates a python 3 file and imports the Hydra JSON output (called output) 
-            //every chance Hydra gets for immediate feedback.
-            //So do something with output.whatever in python
+        Jormungand:{
+            version: 3.0,
+            code:{
+                //create your python based plugout for Hydra output evaluation (hydra's evalated JSON gets injested by 
+                //your Python as the keyword "output")
+                //this code block creates a python 3 file and imports the Hydra JSON output (called output) 
+                //every chance Hydra gets for immediate feedback.
+                //So do something with output.whatever in python
+            }
+
+        }
+        Typhon:{
+            version: js6,
+            code:{
+                //create your javascript plugin here using Hydra plugin API. Pull in specific hydra functionality,
+                //push out your plugin to Hydra's pipeline with associated priority
+                //Then export it to the plug registry and pull it back in using Hydra Cli
+                //all plugins pushed to the registry are hashed so that if you keep this code here, there are no
+                //duplicate plugin collisions. Dont worry about empty spaces as they are all sanitized before being
+                //hashed.
+            }
+            
         }
       }
-      plugin:{
-        js6:{
-            //create your javascript plugin here using Hydra plugin API. Pull in specific hydra functionality,
-            //push out your plugin to Hydra's pipeline with associated priority
-            //Then export it to the plug registry and pull it back in using Hydra Cli
-            //all plugins pushed to the registry are hashed so that if you keep this code here, there are no
-            //duplicate plugin collisions. Dont worry about empty spaces as they are all sanitized before being
-            //hashed.
-        }
-      }
+
       //Native Hydra Objects
       Hydra:{
         export objName1 as Obj1:{
