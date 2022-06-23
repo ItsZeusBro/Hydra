@@ -97,7 +97,7 @@ to leverage future technologies while still remaining productive enough to be ut
 As AI changes how easily we build things at the "how" level, we can remain productive and needed at the "what" level with things like Hydra.
 Schema Interfacing is what remains stable to programmers long term. AI will train on this schema to give us what we want overtime.
 
-## Hydra 0.1 Supported Features (coming soon):
+## Hydra 0.1 Supported Features (eta: 6-12 months):
 1. plugin api
 2. plugout api
 3. interpreter (and sandbox websocket for text editor plugouts)
