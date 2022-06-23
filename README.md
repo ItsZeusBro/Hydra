@@ -12,12 +12,17 @@ Every plugin to Hydra evaluates its own syntax. The syntax is nested under the p
 ![images](https://user-images.githubusercontent.com/107733608/175181009-7d7129b8-465b-46c9-853a-3f3d5d644cd0.jpg)
 
 
-## Basic Example:
+## somefile.hydra:
+    //@ allows you to import other project files as dependencies and is reflected in code generating plugins output
+    //The filename for a hydra file is the file name for your project and its associated code
+    //
+    @/some/path/to/cool.hydra import CoolObject as Cool   
     {
       //Native Hydra Objects
       Hydra:{
-        objName1:{
+        export objName1 as Obj1:{
           type: "Class",
+          parent: Cool,
           props:{
             size: "10",
             desc: "small thing"
