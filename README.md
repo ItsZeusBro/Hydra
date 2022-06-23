@@ -13,11 +13,29 @@ Every plugin to Hydra evaluates its own syntax. The syntax is nested under the p
 
 
 ## somefile.hydra:
-    //@ allows you to import other project files as dependencies and is reflected in code generating plugins output
+    //@ allows you to import other project files as dependencies and is reflected in code generating 
+    //plugins output
     //The filename for a hydra file is the file name for your project and its associated code
-    //
+    
     @/some/path/to/cool.hydra import CoolObject as Cool   
     {
+      plugout:{
+        //create a special purpose plugout here using Hydra's api to do some plugin development on the fly
+        //and see how it interacts with the rest of your hydra files. Hydra's full api is directly exposed
+        //to every hydra file by default, because the interpreter is what recognizes those calls.
+        pythonv3:{
+            //create your python based plugout for Hydra output evaluation (hydra's evalated JSON gets injested by 
+            //your Python as the keyword "output")
+            //this code block creates a python 3 file and imports the Hydra JSON output (called output) every chance Hydra gets for 
+            //immediate feedback.
+            //So do something with output.whatever in python
+        }
+      }
+      plugin:{
+        js6:{
+            //create your javascript plugin here using Hydra plugin API. Pull in specific hydra functionality, push out your plugin to Hydra
+        }
+      }
       //Native Hydra Objects
       Hydra:{
         export objName1 as Obj1:{
