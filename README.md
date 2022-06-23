@@ -23,7 +23,7 @@ Every plugin to Hydra evaluates its own syntax. The syntax is nested under the p
         //create a special purpose plugout here using Hydra's api to do some plugin development on the fly
         //and see how it interacts with the rest of your hydra files. Hydra's full api is directly exposed
         //to every hydra file by default, because the interpreter is what recognizes those calls.
-        Jormungand:{
+        jormungand:{
             version: 3.0,
             code:{
                 //create your python based plugout for Hydra output evaluation (hydra's evalated JSON gets injested by 
@@ -34,7 +34,7 @@ Every plugin to Hydra evaluates its own syntax. The syntax is nested under the p
             }
 
         }
-        Typhon:{
+        typhon:{
             version: js6,
             code:{
                 //create your javascript plugin here using Hydra plugin API. Pull in specific hydra functionality,
@@ -49,9 +49,9 @@ Every plugin to Hydra evaluates its own syntax. The syntax is nested under the p
       }
 
       //Native Hydra Objects
-      Hydra:{
+      hydra:{
         export objName1 as Obj1:{
-          type: "Class",
+          type: class,
           parent: Cool,
           props:{
             size: "10",
@@ -64,7 +64,7 @@ Every plugin to Hydra evaluates its own syntax. The syntax is nested under the p
 
         },
         objName2:{
-          type: "Class",
+          type: class,
           props:{
             size: "14",
             desc: "strong thing"
@@ -74,7 +74,7 @@ Every plugin to Hydra evaluates its own syntax. The syntax is nested under the p
           }
         },
         objName3:{
-          type: "Class",
+          type: class,
           props:{
             size: "18",
             desc: "weighty thing"
@@ -117,6 +117,23 @@ Schema Interfacing is what remains stable to programmers long term. AI will trai
 
 ## More on Plug Support:
 To properly create a plug that also offers its own extending plugs, the plug your working on should utilize Hydra's Plug Library 
+
+
+## Hydra 0.1 Keywords:
+1. @
+2. hydra
+3. import
+4. export
+5. as
+6. plugin
+7. plugout
+8. plugs
+10. type
+11. parent
+12. class
+13. props
+14. methods
+15. code
 
 Please Join our Community and Help!
 zeusofolympus1000@gmail.com
