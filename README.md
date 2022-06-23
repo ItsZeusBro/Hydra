@@ -103,3 +103,6 @@ Schema Interfacing is what remains stable to programmers long term. AI will trai
 3. interpreter (and sandbox websocket for text editor plugouts)
 4. plug registry
 5. basic plugs (Uranus, Uranus-plugout, python-plugout, Hydrarchy, Orpheus)
+
+Please Join our Community and Help!
+zeusofolympus1000@gmail.com
