@@ -7,5 +7,6 @@ Hydra tells us that: when we can code abstractly we should. The plugins aim to s
 
 The plugins are there to give context and opinion to your Abstract Syntax. This will allow Hydra to read like pseudo code or even natural language one day, and every term of art will have a context and opinion informed by your plugins. In otherwords, some plugins conflict with others. Better yet, other plugins add nuance in there own pipelines. That looks like the mythical Hydra when its done.
 
+Every plugin to Hydra evaluates its own syntax. The syntax is nested under the plugin name. The plugin will look for the name, evaluate the syntax and have an Hydra output: keyword with its stringified evaluation so that things like Hyrarchy can access the evaluations predictably.
 
 ![images](https://user-images.githubusercontent.com/107733608/175181009-7d7129b8-465b-46c9-853a-3f3d5d644cd0.jpg)
