@@ -96,7 +96,7 @@ for Hydra's purposes there is a good chance that a better tool will come along i
 4. plug registry
 5. basic plugs (Uranus, Jormungand, Hydrarchy, Orpheus, Hippocampus, and Hercules)
 6. Comments are a native feature of Hydra files, but when they are exported to JSON with Hippocampus plugout they are put into a comment:"string" to not lose valuable info
-7. Log Streams where each Hydra-Level plug has its own log stream and stack-trace.
+7. Log Streams where each Hydra-Level plug has its own log stream and stack-trace to be consumed by Logging Plugouts of your choice
 
 ## More on Plug Support:
 To properly create a plug that also offers its own extending plugs, the plug your working on should utilize Hydra's Plug Library 
