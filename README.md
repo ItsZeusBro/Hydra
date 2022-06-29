@@ -88,3 +88,4 @@ Just because each Hydra File is Syncronous, and just because we only care about 
 - Even your Machine which executes your routine could be specifc to your routine. And if that routine were heavily used, it could end up having a plugin that produces an ASIC chip to compute the result.
 - Production is just another computable environment, and running a Hydra file on your dev server should be no different than running it in the cloud or on some user device.
 - Eventually user devices would not need a Machine to Compute anything. They would only display output and recieve input over a network.
+- Your whole stack is recursive at the file level. This lends itself to functional programming paradigms as opposed to functional languages.
