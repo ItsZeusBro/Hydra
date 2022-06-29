@@ -61,3 +61,14 @@ Just because each Hydra File is Syncronous, and just because we only care about 
 4. A Reference to a Machine that is capable of executing it
 5. A Result or "Artifact" Destination
 6. A Reference to a Medium or Network to Send the results to
+
+## It Should look something like this (but is not limited to this because there are many ways to describe a Computable):
+    {
+        source:{},
+        structure:{},
+        routine:{},
+        machine: ref_to_some_machine,
+        artifact: ref_to_some_structure_somewhere,
+        display: ref_to_some_medium
+    
+    }
