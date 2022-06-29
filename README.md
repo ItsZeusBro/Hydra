@@ -89,3 +89,4 @@ Just because each Hydra File is Syncronous, and just because we only care about 
 - Production is just another computable environment, and running a Hydra file on your dev server should be no different than running it in the cloud or on some user device.
 - Eventually user devices would not need a Machine to Compute anything. They would only display output and recieve input over a network.
 - Your whole stack is recursive at the file level. This lends itself to functional programming paradigms as opposed to functional languages.
+- Every File is a Computable Object not a Class, which enforces Concurrency across your whole program.
