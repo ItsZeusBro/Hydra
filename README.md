@@ -1,10 +1,15 @@
-# Hydra is a Computable Object Model Implementation
+# Hydra is a Computable Object Model Program Semantic (COMP)
+### It's too abstract to call it a pure functional language, and its too concrete to call it a pure visual model.
+What this means is that you can reach the goal of your app using a Computable Object Model Program through pure context semantics at the top and execute pure functions at the bottom. 
+
+
+Ultimately, the keystrokes that represent the Computable Object Model Program file take on the form of a concrete Hydra File for our purposes. Because Hydra's uses this context abstraction, it is able to Compute anything computable, using any Computational Paradigm needed for the Routine. To see why context is so powerful here look at the following diagram and it's six abstract components.
 
 ## All Hydra Computables are made up of the following core elements:
 <img align="right" height="500" width="600" src="https://github.com/ItsZeusBro/Hydra/blob/822433adcf0249ccff8811fe67f70eb1bb2c4f65/Computable2.jpg">
 
 1. Data
-2. Data Management
+2. Data Structuring and Management
 3. Routine
 4. Machine
 5. Result
@@ -15,18 +20,32 @@
 ### Things to Note about the diagram:
 - The Routine of a Computable can only be run on a Machine capable of carrying out its exact instructions in the routine's exact order.
     - So imagine in the example that the directed graph is capable of computing each step of the routine faithfully
-- Lets assume that all Hydra Computables are sequential in the execution of their Routines
-    - When Hydra speaks of concurrency, we call these Meta-Computables or Orchastrations (more on this later). But a Meta-Computable would not fall under a mere "Computable Element" for communication purposes.
-    - A Meta-Computable uses the same 6 core principles as a normal computable. 
+- Lets assume that all Hydra Computables are sequential in the execution of their Routines. This means syntax initially takes precidence over semantic within the routines runtime. Semantic represents full evaluation of the underlying step, but this would not leverage concurrency. So The Hydra Machine Abstraction does not use this type of life-cycle for the evaluation of a Hydra File
+- When Hydra speaks of concurrency, we call these Relative-Computables or Orchastrations (more on this later). 
+    - They are not meant to be rigorously understood, rather, they describe loosely associated parts at the highest levels of your app moving in some sequence where sequence doesnt even matter that much. 
+    - It looks similar to a brain storming session on a whiteboard, meaning, relating large concepts together in this thing called your app. Where the lines between the Computable Objects have no sequential semantic. 
+    
 
-#### However, these should be thought of a bit differently for a Meta-Computable
+## The six core abstractions should be thought of a bit differently for Relative Computables
 
-1. Results of Computables
-2. Storage of those Results
-3. Routine based on those Results
-4. A Machine capable of performing that Routine
-5. A Composite Result
+1. Results as ***Source Data*** 
+2. ***Structure and Management*** of those Results
+3. A ***Routine*** associated on those Results     
+4. A ***Machine*** capable of performing that Routine.
+5. A Composite ***Result***
 6. A place and method to send it to
+
+### Notes on Relative Computables
+- To understand the job of Relative Computables we need to understand the extremes. The absolute top layer of your application code (root or app level), and one of the absolute bottoms that knows nothing about anything other than their specific job for which they have everything they need. (leaf or pure functional level) 
+    - In otherwords the entire application in the Computable Object Model is just a tree, with pure functions at the bottom, and pure associations at the top
+- A Relative Computable is a mix of both. It translates the top to the bottom and the bottom to the top. The less of this code we have, the better. But it is still needed. 
+
+
+## The six core abstractions should be thought of differently for the highest level called "App-Computables":
+1. These are the results of all of your lower level Computables, whose results look more and more involved the more you go down. The App Level is the queitest place in your application with the slowest moving parts. Results bubbling up the stack are mere happy thoughts if things are going well, or just silence.
+2. ***Structure and Management*** of those results are also less involved at the app level in as much
+The ***Routine*** matters less the higher you go, but you still need one to get things done
+- Moira aims to service the high level ***Machine*** Abstractions and the Low Level Machine
 
 ##### Why do we not add "Display" to the list?
 - This is an important question. The result is a form of display when it is shared! So Network encapsulates the logic of Display. To network is to communicate. That is a form of display, and we wont really delve too much into this distinction because it's not relevant here (even though it is at the end).
@@ -35,8 +54,8 @@
 
 ##### What does this mean for Hydra?
 - It means, we can focus on these abstract elements for all Hydra Computables from a high level, and not worry about the implementations underneath it.
-- What this means for our purposes is that we nail down a descriptive syntax that is very formal, and very easy to reason about. Each Hydra File is basically a composite of these 6 principles. Each Hydra File describes a Syncronous Routine. Even Meta-Computable Hydra Files. 
-- Meta-Computable Hydra Files represent concurrency through syncronicity. And we will touch on this soon.
+- What this means for our purposes is that we nail down a descriptive syntax that is very formal, and very easy to reason about. Each Hydra File is basically a composite of these 6 principles. Each Hydra File describes a Syncronous Routine. Even Relative-Computable Hydra Files. 
+- Relative-Computable Hydra Files represent concurrency through syncronicity. And we will touch on this soon.
 
 
 
@@ -48,7 +67,7 @@
 ## Concurrency through Syncronicity:
 Just because each Hydra File is Syncronous, and just because we only care about Hydra Files, does not mean that we can't compute things in parallel!
 - Higher Order Hydra Files are the same as Lower order Hydra Files, with the exception that Higher Order ones reason about lower order ones. 
-- While a Meta-Computable is kicking off a Hydra Process, that Hydra Computable is concurrently executed with the next Hydra Computable. 
+- While a Relative-Computable is kicking off a Hydra Process, that Hydra Computable is concurrently executed with the next Hydra Computable. 
 - The results of those steps can be stored after their Machine's have closed off the Computable with a result. 
     - Evaluation of a step is not the same as steping into it and steping out of it.
         - So every abstract step can be "Completed" without being "Evaluated", all while remaining "Syncronous" within the Hydra File. 
