@@ -64,32 +64,105 @@ Just because each Hydra File is Syncronous, and just because we only care about 
 
 ## It Should look something like this (but is not limited to this because there are many ways to describe a Computable Object):
     {
-        source:{},
-        structure:{},
-        routine:{},
-        machine: ref_to_some_machine,
-        artifact: ref_to_some_structure_somewhere 
-        display: ref_to_some_medium
+        source:{
+            //Things related to a source context:
+            1. Data Typing
+            2. Comparators
+            3. Type Casting
+            4. Type Inference
+            5. Input operations and interfaces
+            6. Simple Data Structs (Nodes belonging to a graph)
+            7. Data Macros
+            8. Databases
+        },
+        structure:{
+            //Things related to Data Structure Context
+            1. Databases
+            2. Searching
+            3. Sorting
+            4. Inserting, Modifying, and Deleting
+            5. Stacks and Queues
+            6. Trees
+            7. Structure Optimization
+        },
+        routine:{
+            //Things related to Routine Context
+            1. Routine Syntax
+            2. Callable Apis
+            3. Object Oriented Programming (even though Hydra does not 
+            levearage the full power of OOP, because its a different paradigm. 
+            Everything of relevance is a computer, not a mere object in 
+            Computer Object Modeling.
+            4. Interpreters
+            5. Compilers
+            6. ABI's
+            7. Assembly and ASIC's
+        },
+        machine: {
+            //Things related to Machine Context
+            1. Computational Paradigms (State Machines, General Purpose Machines, 
+            Specific Purpose Machines)
+            2. Other Computable Object Models (Hydra Files) are an instance of 
+            a Specific Purpose Machine
+            3. Machine Configuration and Initial State
+        },
+        artifact: {
+            //Things related to the Result (Artifact) context
+            1. The result of a Machine's syncronous routine. Every machine at its 
+            most abstract and highest level (unless its statistical) uses syncronicity. 
+            The result is therefore pseudo-deterministic. Its high level steps are
+            determined, its low level effects are more impacted by non-deterministic 
+            behavior as a result of timing issues between concurrent processes, and 
+            user input.
+            2. Results are closely related to display because they represent the final 
+            state of a machine. The output is returned, and that is why the two concepts 
+            are so closely associated. When choosing a context, pay close attention to 
+            these differences.
+        
+        }, 
+        display: {
+            //Things related to the Display context
+            1. All results of the machine are returned from the machine as output. 
+            This return process exposes the result to some consumer. This is considered 
+            "display". Display can be an elaborate and complex process (involving 
+            animations, etc) for the output of a machine or app, as the app's utility 
+            and productivity is closely associated with its display.
+        }
     
     }
     
 ### Notes on High Level Scheme:
 - The artifact destination in the way of some structure somewhere is not strictly necessary
-    - For example, it could be stored in the local structure, some other hydra structure, or sent straight to some network or display (same thing)
+    - For example, it could be stored in the local structure, some other hydra structure, 
+    or sent straight to some network or display (same thing)
 - The routine can be written in a high level or low level language depending on plugin support
 - The machine can be any computational machine, so long as it is able to complete the result
 - The data source can be a simple path to a file, a socket, IPC, or a database handler
-- If a plugin acts as a Machine, it is also a Hydra Computable Template File that can be tailored to your app
+- If a plugin acts as a Machine, it is also a Hydra Computable Template File that can be 
+tailored to your app
 
 ### Hydra has a Plugin Enabled Environment:
-- Every single Hydra Computable Object utilizes its own plugins. If you want to Display the results of a State Machine for your Sub-Routine that searches a Red-Black Tree filled with nodes of strings coming from a file stream, on a simple web page; a single Hydra Computable Object should suffice.
+- Every single Hydra Computable Object utilizes its own plugins. If you want to Display the 
+results of a State Machine for your Sub-Routine that searches a Red-Black Tree filled with 
+nodes of strings coming from a file stream, on a simple web page; a single Hydra Computable
+Object should suffice.
 
 ### Benefits:
-- Because of the small number of these core abstractions, you could have a visual syntax as opposed to a wordy subroutine. Or your words could easily be translated to a visual representation. 
-- Even your Machine which executes your routine could be specifc to your routine. And if that routine were heavily used, it could end up having a plugin that produces an ASIC chip to compute the result.
-- Production is just another computable environment, and running a Hydra file on your dev server should be no different than running it in the cloud or on some user device.
-- Eventually user devices would not need a Machine to Compute anything. They would only display output and recieve input over a network.
-- Your whole stack is recursive at the file level. This lends itself to functional programming paradigms as opposed to functional languages.
-- Every File is a Computable Object not a Class, which enforces Concurrency across your whole program.
-- Every File is a Computer. Your most Abstract Orchastration File is your App's Computer that is specific to your App, not the Platform it runs on.
-- Architects can worry about Orchastration. Programmers only need to look at the file they are programming. This seperation of concerns is optimal.
+- Because of the small number of these core abstractions, you could have a visual 
+syntax as opposed to a wordy subroutine. Or your words could easily be translated 
+to a visual representation. 
+- Even your Machine which executes your routine could be specifc to your routine. 
+And if that routine were heavily used, it could end up having a plugin that produces 
+an ASIC chip to compute the result.
+- Production is just another computable environment, and running a Hydra file on your 
+dev server should be no different than running it in the cloud or on some user device.
+- Eventually user devices would not need a Machine to Compute anything. They would only 
+display output and recieve input over a network.
+- Your whole stack is recursive at the file level. This lends itself to functional 
+programming paradigms as opposed to functional languages.
+- Every File is a Computable Object not a Class, which enforces Concurrency across 
+your whole program.
+- Every File is a Computer. Your most Abstract Orchastration File is your App's Computer 
+that is specific to your App, not the Platform it runs on.
+- Architects can worry about Orchastration. Programmers only need to look at the file 
+they are programming. This seperation of concerns is optimal.
