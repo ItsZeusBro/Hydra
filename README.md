@@ -90,3 +90,4 @@ Just because each Hydra File is Syncronous, and just because we only care about 
 - Eventually user devices would not need a Machine to Compute anything. They would only display output and recieve input over a network.
 - Your whole stack is recursive at the file level. This lends itself to functional programming paradigms as opposed to functional languages.
 - Every File is a Computable Object not a Class, which enforces Concurrency across your whole program.
+- Every File is a Computer. Your most Abstract Orchastration File is your App's Computer that is specific to your App, not the Platform it runs on.
