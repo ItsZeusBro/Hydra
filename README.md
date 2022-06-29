@@ -53,3 +53,11 @@ Just because each Hydra File is Syncronous, and just because we only care about 
     - Evaluation of a step is not the same as steping into it and steping out of it.
         - So every abstract step can be "Completed" without being "Evaluated", all while remaining "Syncronous" within the Hydra File. 
         - So syncronicity for Hydra's purposes just means we "Complete" each step without looking underneath us until that is a part of the next step itself.
+
+## What is in a Hydra File?
+1. A Data Source
+2. A Data Management Structure and Interface
+3. An Abstract Routine Syntax (a bit like pseudo code)
+4. A Reference to a Machine that is capable of executing it
+5. A Result or "Artifact" Destination
+6. A Reference to a Medium or Network to Send the results to
