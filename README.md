@@ -45,4 +45,8 @@
 - That is exactly what Hydra is needed for. It aims to remove all of the complexity from implementation, and allow you to implement the design of your application and have more complex features and experiences.
 
 
+## Concurrency through Syncronicity:
+Just because each Hydra File is Syncronous, and just because we only care about Hydra Files, does not mean that we can't compute things in parallel!
+Higher Order Hydra Files are the same as Lower order Hydra Files, with the exception that Higher Order ones reason about lower order ones. While a Meta-Computable is kicking off Hydra Processes, those Hydra Processes are concurrently executed. The results of those steps can be stored after a Machine has moved on to the next step. Evaluation of a step is not the same as steping into it and steping out of it.
 
+So every abstract step can be "Completed" without being "Evaluated", all while remaining "Syncronous" within the Hydra File. So syncronicity for Hydra's purposes just means we "Complete" each step without looking underneath us until that is a part of the next step itself.
