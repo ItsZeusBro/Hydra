@@ -48,7 +48,7 @@
 ## Concurrency through Syncronicity:
 Just because each Hydra File is Syncronous, and just because we only care about Hydra Files, does not mean that we can't compute things in parallel!
 - Higher Order Hydra Files are the same as Lower order Hydra Files, with the exception that Higher Order ones reason about lower order ones. 
-- While a Meta-Computable is kicking off a Hydra Process, that Hydra Processes is concurrently executed with the next. 
+- While a Meta-Computable is kicking off a Hydra Process, that Hydra Computable is concurrently executed with the next Hydra Computable. 
 - The results of those steps can be stored after their Machine's have closed off the Computable with a result. 
     - Evaluation of a step is not the same as steping into it and steping out of it.
         - So every abstract step can be "Completed" without being "Evaluated", all while remaining "Syncronous" within the Hydra File. 
