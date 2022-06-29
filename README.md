@@ -87,3 +87,4 @@ Just because each Hydra File is Syncronous, and just because we only care about 
 - Because of the small number of these core abstractions, you could have a visual syntax as opposed to a wordy subroutine. Or your words could easily be translated to a visual representation. 
 - Even your Machine which executes your routine could be specifc to your routine. And if that routine were heavily used, it could end up having a plugin that produces an ASIC chip to compute the result.
 - Production is just another computable environment, and running a Hydra file on your dev server should be no different than running it in the cloud or on some user device.
+- Eventually user devices would not need a Machine to Compute anything. They would only display output and recieve input over a network.
