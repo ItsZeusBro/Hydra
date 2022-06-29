@@ -1,4 +1,4 @@
-# Hydra is Computable Oriented Design
+# Hydra is a "Computable Oriented Design" Abstract Language Interpreter
 
 ## All Hydra Computables are made up of the following core elements:
 <img align="right" height="500" width="600" src="https://github.com/ItsZeusBro/Hydra/blob/822433adcf0249ccff8811fe67f70eb1bb2c4f65/Computable2.jpg">
