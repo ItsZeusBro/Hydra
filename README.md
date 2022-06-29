@@ -79,6 +79,7 @@ Just because each Hydra File is Syncronous, and just because we only care about 
 - The routine can be written in a high level or low level language depending on plugin support
 - The machine can be any computational machine, so long as it is able to complete the result
 - The data source can be a simple path to a file, a socket, IPC, or a database handler
+- If a plugin acts as a Machine, it is also a Hydra Computable Template File that can be tailored to your app
 
 ### Hydra has a Plugin Enabled Environment:
 - Every single Hydra Computable Object utilizes its own plugins. If you want to Display the results of a State Machine for your Sub-Routine that searches a Red-Black Tree filled with nodes of strings coming from a file stream, on a simple web page; a single Hydra Computable Object should suffice.
