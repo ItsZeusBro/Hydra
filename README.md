@@ -1,4 +1,4 @@
-# Hydra is a "Computable Oriented Design" Abstract Language Interpreter (or Compiler)
+# Hydra is a "Computable Object Language"
 
 ## All Hydra Computables are made up of the following core elements:
 <img align="right" height="500" width="600" src="https://github.com/ItsZeusBro/Hydra/blob/822433adcf0249ccff8811fe67f70eb1bb2c4f65/Computable2.jpg">
@@ -62,7 +62,7 @@ Just because each Hydra File is Syncronous, and just because we only care about 
 5. A Result or "Artifact" Destination
 6. A Reference to a Medium or Network to Send the results to
 
-## It Should look something like this (but is not limited to this because there are many ways to describe a Computable):
+## It Should look something like this (but is not limited to this because there are many ways to describe a Computable Object):
     {
         source:{},
         structure:{},
