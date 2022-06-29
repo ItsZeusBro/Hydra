@@ -82,3 +82,7 @@ Just because each Hydra File is Syncronous, and just because we only care about 
 
 ### Hydra has a Plugin Enabled Environment:
 - Every single Hydra Computable Object utilizes its own plugins. If you want to Display the results of a State Machine for your Sub-Routine that searches a Red-Black Tree filled with nodes of strings coming from a file stream, on a simple web page; a single Hydra Computable Object should suffice.
+
+### Benefits:
+- Because of the small number of these core abstractions, you could have a visual syntax as opposed to a wordy subroutine. Or your words could easily be translated to a visual representation. 
+- Even your Machine which executes your routine could be specifc to your routine. And if that routine were heavily used, it could end up having a plugin that produces an ASIC chip to compute the result.
