@@ -68,7 +68,14 @@ Just because each Hydra File is Syncronous, and just because we only care about 
         structure:{},
         routine:{},
         machine: ref_to_some_machine,
-        artifact: ref_to_some_structure_somewhere,
+        artifact: ref_to_some_structure_somewhere 
         display: ref_to_some_medium
     
     }
+    
+### Notes on High Level Scheme:
+- The artifact destination in the way of some structure somewhere is not strictly necessary
+    - For example, it could be stored in the local structure, some other hydra structure, or sent straight to some network or display (same thing)
+- The routine can be written in a high level or low level language depending on plugin support
+- The machine can be any computational machine, so long as it is able to complete the result
+- The data source can be a simple path to a file, a socket, IPC, or a database handler
