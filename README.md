@@ -1,4 +1,4 @@
-# Hydra is a Computable Object Model Program (COMP) Semantic 
+# Hydra is a Computable Object Model Program (COMP) Semantic. (Not Syntax Dependent) 
 ### It's too abstract to call it a language, and its too concrete to call it a model.
 What this means is that you can reach the goal of your app using a Computable Object Model Program through pure context associations at the model level and execute pure syncronous functions at the bottom that are totally independent of one another. 
 
