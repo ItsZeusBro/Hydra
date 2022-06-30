@@ -6,7 +6,7 @@ What this means is that you can reach the goal of your app using a Computable Ob
 Ultimately, the keystrokes that represent the Abstract COMP description take on the form of a concrete Hydra File for our purposes. Because Hydra's uses core COMP abstractions, it is able to Compute anything that is computable, using any Computational Paradigm needed for the Routines instructions. To see why COMP contexts are so powerful here look at the following diagram and it's six abstract components. They are generalizable that can represent every vertical level of your application.
 
 ## COMP Architechture helps you do one thing and do it well:
-If you can't specify how your function or application fits within a computer architechture, then you probably don't want to build it. Forcing everything into this architecture makes you think about your use cases, and limit their purpose.
+If you can't specify how your function or application fits within a computer architechture, then you probably don't want to build it. Forcing everything into this architecture makes you think about your use cases, and limit their purpose. There is very little room for interpretation for how your utility should interact with this architecture.
 
 ## All Hydra Computables are made up of the following 6 core elements:
 <img align="right" height="500" width="600" src="https://github.com/ItsZeusBro/Hydra/blob/99f5ff0bc33bbf89cf0b9451e02907c0ece4ce71/Computables.jpg">
