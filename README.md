@@ -1,9 +1,9 @@
 # Hydra is a Computable Object Model Program (COMP) Semantic 
-### It's too abstract to call it a pure functional language, and its too concrete to call it a pure visual model.
-What this means is that you can reach the goal of your app using a Computable Object Model Program through pure context semantics at the top and execute pure functions at the bottom. 
+### It's too abstract to call it a language, and its too concrete to call it a model.
+What this means is that you can reach the goal of your app using a Computable Object Model Program through pure context associations at the model level and execute pure syncronous functions at the bottom that are totally independent of one another. 
 
 
-Ultimately, the keystrokes that represent the Computable Object Model Program file take on the form of a concrete Hydra File for our purposes. Because Hydra's uses this context abstraction, it is able to Compute anything computable, using any Computational Paradigm needed for the Routine. To see why context is so powerful here look at the following diagram and it's six abstract components.
+Ultimately, the keystrokes that represent the Abstract COMP description take on the form of a concrete Hydra File for our purposes. Because Hydra's uses core COMP abstractions, it is able to Compute anything that is computable, using any Computational Paradigm needed for the Routines instructions. To see why COMP contexts are so powerful here look at the following diagram and it's six abstract components. They are generalizable that can represent every vertical level of your application.
 
 ## All Hydra Computables are made up of the following core elements:
 <img align="right" height="500" width="600" src="https://github.com/ItsZeusBro/Hydra/blob/99f5ff0bc33bbf89cf0b9451e02907c0ece4ce71/Computables.jpg">
