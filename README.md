@@ -114,10 +114,10 @@ These Computable files have components that are so independent of one another, t
     
 ### There are no API's or Libraries in this abstraction. Every machine just depends on a type of input
 - In otherwords, every Computable Machine expects a certain source of data, its type, and its structure.
-- If this is not provided correctly into the machine, it is just ignored by the Computable. Please See Moira and Lachesis. 
+- If this is not provided correctly into the machine, it is just ignored by the Computable. Please See Moira and Clotho. 
 - This means error handling is premptive and seperate from the code that does something. 
 - If your code recieves proper input, it should just execute without error (that is Moira), or not 
-execute at all (that is Lachesis) 
+execute at all (that is Clotho) 
     - There is no in-between, because that is a security vulnerability. (That is Hydra)
 
 
