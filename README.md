@@ -6,7 +6,7 @@ What this means is that you can reach the goal of your app using a Computable Ob
 Ultimately, the keystrokes that represent the Computable Object Model Program file take on the form of a concrete Hydra File for our purposes. Because Hydra's uses this context abstraction, it is able to Compute anything computable, using any Computational Paradigm needed for the Routine. To see why context is so powerful here look at the following diagram and it's six abstract components.
 
 ## All Hydra Computables are made up of the following core elements:
-<img align="right" height="500" width="600" src="https://github.com/ItsZeusBro/Hydra/blob/822433adcf0249ccff8811fe67f70eb1bb2c4f65/Computable2.jpg">
+<img align="right" height="500" width="600" src="https://github.com/ItsZeusBro/Hydra/blob/99f5ff0bc33bbf89cf0b9451e02907c0ece4ce71/Computables.jpg">
 
 1. Data
 2. Data Structuring and Management
