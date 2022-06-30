@@ -31,7 +31,7 @@ These Computable files have components that are so independent of one another, t
 
 
 ### Does this abstraction help me build my app?
-- That is exactly what Hydra is needed for. It aims to remove all of the complexity from implementation, and allow you to implement the design of your application and have more complex features and experiences.
+- That is exactly what Hydra is needed for. It aims to remove all of the complexity from implementation, and allow you to implement the design of your application and have more complex features and experiences. The long term vision of Hydra is to have a ecosystem of plugin components that interface with the 6 core abstractions. Ideal plugins only interface with a single abstraction, this is what we strive for, but is extremely difficult.
 
 
 ## More detail on what is in a Hydra File:
