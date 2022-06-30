@@ -11,7 +11,7 @@ If you can't specify how your function or application fits within a computer arc
 ## All Hydra Computables are made up of the following 6 core elements:
 <img align="right" height="500" width="600" src="https://github.com/ItsZeusBro/Hydra/blob/99f5ff0bc33bbf89cf0b9451e02907c0ece4ce71/Computables.jpg">
 
-0. Zeroware (Moira, Clotho, Lachesis, and Attropos)
+0. Zeroware (Moira, Clotho, Zeus, and Attropos)
 1. Data
 2. Data Structuring and Management
 3. Routine
