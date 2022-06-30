@@ -5,9 +5,10 @@ What this means is that you can reach the goal of your app using a Computable Ob
 
 Ultimately, the keystrokes that represent the Abstract COMP description take on the form of a concrete Hydra File for our purposes. Because Hydra's uses core COMP abstractions, it is able to Compute anything that is computable, using any Computational Paradigm needed for the Routines instructions. To see why COMP contexts are so powerful here look at the following diagram and it's six abstract components. They are generalizable that can represent every vertical level of your application.
 
-## All Hydra Computables are made up of the following core elements:
+## All Hydra Computables are made up of the following 6 core elements:
 <img align="right" height="500" width="600" src="https://github.com/ItsZeusBro/Hydra/blob/99f5ff0bc33bbf89cf0b9451e02907c0ece4ce71/Computables.jpg">
 
+0. Middleware
 1. Data
 2. Data Structuring and Management
 3. Routine
@@ -111,6 +112,13 @@ These Computable files have components that are so independent of one another, t
     
     }
     
+### There are no API's or Libraries in this abstraction. Every machine just depends on a type of input
+- In otherwords, every Computable Machine expects a certain source of data, its type, and its structure.
+- If this is not provided correctly into the machine, it is just ignored by the Computable. Please See Moira and Lachesis. 
+- This means error handling is premptive and seperate from the code that does something. 
+- If your code recieves proper input, it should just execute without error (that is Moira), or not 
+execute at all (that is Lachesis) 
+    - There is no in-between, because that is a security vulnerability. (That is Hydra)
 
 
 ### Benefits:
